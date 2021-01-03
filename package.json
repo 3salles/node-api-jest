@@ -1,0 +1,9 @@
+{
+  "name": "node-api-jest",
+  "version": "0.1.0",
+  "description": "Project to learn NodeJS with Jest tests.",
+  "main": "index.js",
+  "repository": "git@github.com:3salles/node-api-jest.git",
+  "author": "Beatriz Salles",
+  "license": "MIT"
+}

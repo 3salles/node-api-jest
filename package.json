@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:3salles/node-api-jest.git",
   "author": "Beatriz Salles",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }

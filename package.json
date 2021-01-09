@@ -11,7 +11,9 @@
     "standard": "^16.0.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --colors",
+    "test:unit": "yarn run test -- --watch -c jest-unit-config.js",
+    "test:unit": "yarn run test -- --watch -c jest-integration-config.js"
   },
   "standard": {
     "env": ["jest"]

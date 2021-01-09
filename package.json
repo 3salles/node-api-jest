@@ -13,7 +13,7 @@
   "scripts": {
     "test": "jest --colors",
     "test:unit": "yarn run test -- --watch -c jest-unit-config.js",
-    "test:unit": "yarn run test -- --watch -c jest-integration-config.js"
+    "test:integration": "yarn run test -- --watch -c jest-integration-config.js"
   },
   "standard": {
     "env": ["jest"]

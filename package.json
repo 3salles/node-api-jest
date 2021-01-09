@@ -11,7 +11,7 @@
     "standard": "^16.0.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch --colors"
   },
   "standard": {
     "env": ["jest"]

@@ -16,6 +16,11 @@
     "test:integration": "yarn run test -- --watch -c jest-integration-config.js"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "validator": "^13.5.2"
   }
 }

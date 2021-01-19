@@ -1,5 +1,5 @@
 const validator = require('validator')
-const EmailValidator = require('../src/utils/email-validator')
+const EmailValidator = require('../src/utils/helpers/email-validator')
 
 const makeSut = () => {
   return new EmailValidator()

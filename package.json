@@ -21,6 +21,7 @@
     ]
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "validator": "^13.5.2"
   }
 }

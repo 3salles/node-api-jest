@@ -2,19 +2,22 @@
   "name": "node-api-jest",
   "version": "0.1.0",
   "description": "Project to learn NodeJS with Jest tests.",
-  "main": "index.js",
+  "main": "src/main/index.js",
   "repository": "git@github.com:3salles/node-api-jest.git",
   "author": "Beatriz Salles",
   "license": "MIT",
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.2.3",
     "jest": "^26.6.3",
-    "standard": "^16.0.3"
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
   },
   "scripts": {
-    "test": "jest --colors",
+    "start": "node src/main/index.js",
+    "test": "jest --colors --runInBand",
     "test:unit": "yarn run test -- --watch -c jest-unit-config.js",
-    "test:integration": "yarn run test -- --watch -c jest-integration-config.js"
+    "test:integration": "yarn run test -- --watch -c jest-integration-config.js",
+    "test:ci": "yarn test -- --coverage --silent"
   },
   "standard": {
     "env": [
@@ -23,6 +26,8 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "fast-glob": "^3.2.5",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.6.3",
     "validator": "^13.5.2"

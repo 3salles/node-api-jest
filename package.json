@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "node src/main/index.js",
-    "test": "jest --colors",
+    "test": "jest --colors --runInBand",
     "test:unit": "yarn run test -- --watch -c jest-unit-config.js",
     "test:integration": "yarn run test -- --watch -c jest-integration-config.js"
   },

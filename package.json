@@ -2,7 +2,7 @@
   "name": "node-api-jest",
   "version": "0.1.0",
   "description": "Project to learn NodeJS with Jest tests.",
-  "main": "index.js",
+  "main": "src/main/index.js",
   "repository": "git@github.com:3salles/node-api-jest.git",
   "author": "Beatriz Salles",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "standard": "^16.0.3"
   },
   "scripts": {
+    "start": "node src/main/index.js",
     "test": "jest --colors",
     "test:unit": "yarn run test -- --watch -c jest-unit-config.js",
     "test:integration": "yarn run test -- --watch -c jest-integration-config.js"

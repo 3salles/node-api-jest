@@ -1,4 +1,4 @@
-const sut = require('../../src/infra/repositories/helpers/mongo-helper')
+const sut = require('../../src/infra/helpers/mongo-helper')
 
 describe('Mongo Helper', () => {
   beforeAll(async () => {

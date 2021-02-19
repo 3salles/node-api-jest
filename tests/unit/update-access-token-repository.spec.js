@@ -1,7 +1,7 @@
-const MongoHelper = require('../src/infra/repositories/helpers/mongo-helper')
+const MongoHelper = require('../../src/infra/repositories/helpers/mongo-helper')
 let db
-const MissingParamError = require('../src/utils/errors/missing-params-error')
-const UpdateAccessTokenRepository = require('../src/infra/repositories/update-access-token-repository')
+const MissingParamError = require('../../src/utils/errors/missing-params-error')
+const UpdateAccessTokenRepository = require('../../src/infra/repositories/update-access-token-repository')
 
 const makeSut = () => {
   const userModel = db.collection('users')

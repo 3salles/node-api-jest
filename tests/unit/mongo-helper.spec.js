@@ -1,4 +1,4 @@
-const MongoHelper = require('../src/infra/repositories/helpers/mongo-helper')
+const MongoHelper = require('../../src/infra/repositories/helpers/mongo-helper')
 
 describe('Mongo Helper', () => {
   test('Should reconnect when getDb() is invoked an client is disconnect', async () => {

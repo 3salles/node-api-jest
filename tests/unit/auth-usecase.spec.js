@@ -1,5 +1,5 @@
-const { MissingParamError, InvalidParamError } = require('../src/utils/errors')
-const AuthUseCase = require('../src/infra/domain/usecases/auth-usecase')
+const { MissingParamError, InvalidParamError } = require('../../src/utils/errors')
+const AuthUseCase = require('../../src/infra/domain/usecases/auth-usecase')
 
 const makeEncrypter = () => {
   class EncrypterSpy {

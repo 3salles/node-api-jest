@@ -1,5 +1,5 @@
 const request = require('supertest')
-const app = require('../src/main/config/app')
+const app = require('../../src/main/config/app')
 
 describe('App Setup', () => {
   test('Should disable x-powered-by header', async () => {
